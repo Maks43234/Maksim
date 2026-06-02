@@ -3,21 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Grid Layout</title>
+    <title>TechShop</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        <header>Шапка сайту</header>
 
-        <aside>Бічна панель</aside>
+<header class="header">
+    <div class="logo">TechShop</div>
 
-        <main>
-            <h1>Основний контент</h1>
-            <p>Приклад багатоколонкового адаптивного макету з CSS Grid.</p>
-        </main>
+    <nav class="main-nav">
+        <ul class="nav-list">
+            <li><a href="#">Головна</a></li>
+            <li><a href="#">Каталог</a></li>
+            <li><a href="#">Про нас</a></li>
+        </ul>
+    </nav>
 
-        <footer>Підвал сайту</footer>
+    <div class="user-actions">
+        <button class="btn-cart">Кошик (0)</button>
     </div>
+</header>
+
+<main>
+    <section class="products-grid">
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x150" alt="Телефон">
+            <h3>Samsung Galaxy S21</h3>
+            <p>Потужний смартфон з чудовою камерою.</p>
+            <span class="price">25000 грн</span>
+            <button>Купити</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x150" alt="Ноутбук">
+            <h3>Lenovo IdeaPad</h3>
+            <p>Зручний ноутбук для навчання та роботи.</p>
+            <span class="price">32000 грн</span>
+            <button>Купити</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x150" alt="Навушники">
+            <h3>AirPods Pro</h3>
+            <p>Бездротові навушники з шумозаглушенням.</p>
+            <span class="price">12000 грн</span>
+            <button>Купити</button>
+        </div>
+
+        <div class="product-card">
+            <img src="https://via.placeholder.com/250x150" alt="Планшет">
+            <h3>iPad Air</h3>
+            <p>Легкий та потужний планшет.</p>
+            <span class="price">28000 грн</span>
+            <button>Купити</button>
+        </div>
+
+    </section>
+</main>
+
 </body>
 </html>
